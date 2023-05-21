@@ -1,0 +1,110 @@
+@media (max-width: 1024px) {
+  .app__container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .thead__cell-name {
+    max-width: 234px;
+  }
+}
+
+@media (max-width: 992px) {
+  .tbody__cell-wrap-date {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .tbody__cell-btn-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  .tbody__btn-edit {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    overflow: auto;
+  }
+
+  .header__container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .header__form {
+    display: none;
+  }
+
+  .header__logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 0;
+  }
+
+  .app__container {
+    padding: 30px 10px;
+  }
+
+  .app__title {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .modal__box {
+    margin: 10px;
+    width: 300px;
+  }
+
+  .modal__btn-close {
+    top: 3px;
+    right: 3px;
+  }
+
+  .modal__title--add {
+    padding-left: 15px;
+  }
+
+  .modal__form-group {
+    padding-left: 15px;
+  }
+
+  .modal__input {
+    width: 270px;
+  }
+
+  .modal__label {
+    left: 15px;
+  }
+
+  .modal__contact--open {
+    padding: 25px 15px;
+  }
+
+  .modal__contact--closed {
+    padding: 10px 15px;
+  }
+
+  .contact__list {
+    width: 110px;
+  }
+
+  .contact__btn-type {
+    width: 110px;
+  }
+
+  .contact__input {
+    padding-left: 6px;
+  }
+}
